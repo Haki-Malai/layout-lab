@@ -91,4 +91,69 @@ main {
       }
     }
   }
+
+  @media screen and (max-width: 900px) {
+    .boxContainer {
+
+      .boxRow {
+
+        .boxItem {
+
+          .boxItemContent {
+
+            .textContent{
+              font-size: 1.5;
+  
+              .bigText {
+                font-size: 3rem;
+              }
+            }
+          }
+          
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .boxContainer {
+      width: 100%;
+      height: 70%;
+      padding: .5rem;
+      align-self: center;
+      margin-left: 15%;
+
+      .boxRow {
+        display: flex;
+        width: 80%;
+        height: auto;
+
+        .boxItem {
+          width: 80%;
+          padding: .3%;
+
+          &.active {
+            width: 100%;
+          }
+          .boxItemContent {
+            border-radius: 5px;
+
+            .circle {
+              width: 10px;
+              height: 10px;
+            }
+
+            .textContent{
+              font-size: .5rem;
+  
+              .bigText {
+                font-size: 1.5rem;
+              }
+            }
+          }
+          
+        }
+      }
+    }
+  }
 }
