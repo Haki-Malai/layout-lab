@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --mainCyanColor: #67d4f2;
+    --fontMontserrat: 'Montserrat', sans-serif;
+}
+
+main {
+    height: 100vh;
+    background: rgb(78, 141, 242);
+    background: linear-gradient(180deg, rgba(78, 141, 242, 1) 0%, rgba(93, 193, 240, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fontMontserrat);
+}
+
+.boxContainer {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boxContainer .boxRow {
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+
+.boxContainer .boxItem {
+    width: 50%;
+    padding: 1%;
+}
+
+.boxContainer .boxItem.active {
+    width: 80%;
+}
+
+.boxContainer .boxItem .boxItemContent {
+    background-color: white;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    position: relative;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxContainer .boxItem.active .boxItemContent{
+    opacity: 1;
+}
+
+.boxContainer .boxItem .boxItemContent .circle {
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 25px;
+    height: 25px;
+    border: 3px solid var(--mainCyanColor);
+}
+
+.boxContainer .boxItem .boxItemContent .textContent {
+    margin-top: auto;
+    font-size: 2.5rem;
+}
+
+.boxContainer .boxItem .boxItemContent .textContent .bigText{
+    font-size: 5rem;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+.boxContainer .boxItem .boxItemContent .horizontalLine {
+    height: 4px;
+    width: 20%;
+    border: 1px solid var(--mainCyanColor);
+}
+
+.boxContainer .boxItem.active .boxItemContent .circle{
+    background-color: var(--mainCyanColor);
+}
+
+.boxContainer .boxItem.active .boxItemContent .horizontalLine {
+    width: 100%;
+    background-color: var(--mainCyanColor);
+}
