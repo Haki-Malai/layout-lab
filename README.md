@@ -6,7 +6,7 @@ Layout-Lab is a repository with HTML and SCSS code for creating beautiful web la
 ## Installation
 To install the project, simply clone the repository to your local machine:
 ```sh
-git clone https://github.com/your-username/my-project.git
+git clone https://github.com/Haki-Malai/layout-lab.git
 ```
 
 ## Usage
