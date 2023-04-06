@@ -1,7 +1,9 @@
 # layout-lab
-Layout-Lab is a repository with HTML and SCSS code for creating beautiful web layouts with Flexbox.
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/012dfe53-0b24-47ce-b4d9-a00faacc8533/deploy-status)](https://layoutlab.netlify.app/)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Haki-Malai/layout-lab)
+
+Layout-Lab is a repository with HTML and SCSS code for creating beautiful web layouts with Flexbox. Free demo on [Netlify](https://layoutlab.netlify.app/)
+
 
 ## Installation
 To install the project, simply clone the repository to your local machine:
